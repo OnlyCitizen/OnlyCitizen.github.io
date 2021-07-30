@@ -2,79 +2,115 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
-    
+        <title>Project: Event invite</title>
         <style>
-            
-            h1 {
-                font-style: "Oswald", serif;
-                text-align: center;
-            }
-            
-            .post {
-                text-align: center;
-                font-style: "Roboto", serif; 
-            }
-            
-            .date {
-                text-align: center;
-            }
-            
-            .ulpost {
-                line-height: 1.5em;
-            }
-            
-            .ppost {
-                font-style: monospace;
-            }
-            
-            p {
-                line-height: 2em;
-                font-style: "Raleway", monospace;
-                
-            }
-            
-            #contents {
-                text-align: center;
-            }
-            
+           h1 {
+               text-align: center;
+               font-family: "Roboto", monospace;
+           } 
+           
+           #learn-list {
+               float: right;
+               right: 10px;
+               width: 25%;
+               border: 1px solid white;
+               padding: 2px;
+               font: 12px "Roboto" , monospace;
+               margin: 5px;
+           }
+           
+           #list {
+               font-weight: bold;
+               text-align: center;
+               color: rgb(135, 250, 235);
+           }
+           
+           #whole-page {
+               color: rgb(252, 252, 252);
+           }
+           
+          body {
+              background-color: rgb(8, 8, 8);
+          }
+          
+          h4 {
+              text-align: center;
+              font-family: "Roboto" , monospace;
+              
+          }
+          
+          .main-p {
+              margin: 5px;
+              line-height: 2;
+              font-family: "Roboto Condensed" , monospace;
+              font-size: 12px;
+              text-align: left;
+              color: rgb(252, 254, 255);
+              
+          }
+          
+          #left-column {
+              float: left;
+              width: 15%;
+              border: 1px solid white;
+              padding: 2px;
+              text-align: center;
+              font: 12px "Roboto" , monospace;
+              margin: 5px;
+          }
+          
+          a {
+            text-decoration: none;  
+          }
+          
+          #Details {
+              color: rgb(135, 250, 235);
+          }
+          
+          img {
+              border: 1px solid white;
+              margin: 5px;
+          }
+           
+           
+           
         </style>
-        
     </head>
-    <body>
+    <div id="whole-page"><body>
         
-        <h1>Max's blog</h1>
-
-        <h3 id="contents">Contents</h3>
+        <h1>Coding Workshop</h1>
+        <h4>You're Invited</h4>
+        
+        <div id="learn-list"><p id="list">What you will learn:</p>
         <ul>
-            <li><a href="#post1">First post</a></li>
-            <li><a href="#post2">Second post</a></li>
-        </ul>
+            <li>How to add:</li>
+            <li>Links</li>
+            <li>Images</li>
+            <li>Paragraphs</li>
+            <li>Headings</li>
+            <li>Lists</li>
+            <li>Tables</li>
+            <li>How to change font color, size, and style</li>
+            <li>How to set up html code</li>
+            <li>Where you can work on html</li>
+            <li>How to set up your website using Github</li>
+            
+        </ul></div>
         
-        <h2 class="post" id="post1">First post</h2>
-        <h6 class="date">7/28/2021</h6>
+        <div id="left-column"><p class="side-p" id="Details">Details</p>
         
-        <p class="ppost">I have learned new CSS styles such as:
-        </p>
+            <p>Address: <a href="https://www.google.com/maps/place/Brooklyn,+NY/@40.6454199,-74.0850836,11z/data=!3m1!4b1!4m5!3m4!1s0x89c24416947c2109:0x82765c7404007886!8m2!3d40.6781784!4d-73.9441579">Brooklyn, NY</a></p>
+            
+            <p>9 / 20 / 2021
+            <p>1 - 4pm</p>
+        </div>
         
-        <ul class="ulpost">
-            <li>How to change the font</li>
-            <li>How to make entire tags bold</li>
-            <li>How to make entire tags italicised</li>
-            <li>How to center tags</li>
-            <li>How to change the font size</li>
-            <li>How to change the space between lines</li>
-        </ul>
+        <p class="main-p">Want to learn how to make webistes from scratch?<br> This workshop teaches you various coding skills that can help you to become a successful and creative coder. Sign up now!</p> 
         
-    <p class="ppost">It's all going great so far.</p>
-    
-    <h2 class="post" id="post2">Second Post</h2>
-    
-    <h6 class="date">7/28/2021</h6>
-    
-    <p id="p2">
-      Wow.  
-      </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Visitenkarte_code.png/640px-Visitenkarte_code.png" alt="html code" width="329">
         
-    </body>
+        
+        
+        
+    </body></div>
 </html>
